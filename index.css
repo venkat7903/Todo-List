@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.todo-bg-container {
+  background: #04192d;
+  font-family: "Bree serif";
+}
+
+.bg-container {
+  background: #04192d;
+  height: 100vh;
+}
+
+.todo-items-bg-container {
+  background: white;
+  margin-top: 70px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 10px;
+}
+
+.todo-title {
+  color: #0618bb;
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.todo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.user-input {
+  background-color: #e4e7e6;
+  height: 60px;
+  width: 75%;
+  border-right: none;
+  border-style: none;
+  border-width: 0px;
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Roboto";
+  padding-left: 25px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.button {
+  width: 25%;
+  border-width: 0px;
+  background-color: #ff8000;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.input-btn-container {
+  margin-top: 20px;
+  background: #e4e7e6;
+  border-radius: 30px;
+}
+
+.todo-list-container {
+  padding-left: 0px;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-right: 12px;
+}
+
+.label-container {
+  background-color: #e6ffff;
+  width: 100%;
+  border: none;
+  border-left: solid 5px #00cccc;
+  border-radius: 5px;
+}
+
+.label-el {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 82%;
+}
+
+.delete-icon-container {
+  width: 18%;
+  text-align: right;
+}
+
+.delete-icon {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.todo-item:hover {
+  box-shadow: 0 12px 12px 0;
+  transform: translateY(-5px);
+}
